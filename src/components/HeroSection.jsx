@@ -13,7 +13,7 @@ const HeroSection = () => {
         </div>
         <video ref={videoRef} src="../videos/hero.mp4" autoPlay muted playsInline />
         <button>Buy</button>
-        <p>From 250 000 DZD to 500 000 DZD</p>
+        <p>From <span className="text-white">250 000 DZD</span> to <span className="text-white">500 000 DZD</span></p>
     </section>
   );
 };
